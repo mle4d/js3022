@@ -46,11 +46,23 @@ ul {
   width: 60%;
   position: fixed;
   left: 25%;
-  top: 0%;
+  top: -1%;
 }
 a {
   text-decoration: none;
   font-family: 'Shadows Into Light';
   font-size: 200%;
   color: #ffffff;
+  border-radius: 20px;
+}
+.highlight {
+  transition: all 0.2s;
+  position: absolute;
+  top: 0;
+  background: #101654b3;
+  left: 0;
+  z-index: -1;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
