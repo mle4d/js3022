@@ -19,13 +19,20 @@ body {
   overscroll-behavior: none;
 }
 h1 {
-  font-size: 4em;
-  font-family: 'Lacquer';
+  font-size: 400%;
+  font-family: 'Shadows Into Light';
   width: 40vw;
   text-align: center;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 40%;
   color: #f70f99;
   transform: rotate(-20deg);
+}
+.sidebar {
+  list-style: none;
+  
+}
+a {
+  text-decoration: none;
 }
