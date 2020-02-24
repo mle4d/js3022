@@ -1,9 +1,14 @@
 html {
-  background: rgb(247,15,153);
-  background: linear-gradient(90deg, rgba(247,15,153,1) 10%, rgba(249,122,149,1) 82%);
+  background: rgb(249,122,149);
+  background: linear-gradient(30deg, rgba(249,122,149,1) 30%, rgba(251,230,113,1) 50%, rgba(247,15,153,1) 100%);
 }
 
 body {
+  background: rgb(123,233,204);
+  background: linear-gradient(130deg, #f70f99 0%, #f97a95 80%);
   min-height: 100vh;
-  margin: 0; 
+  min-width: 100vw;
+  margin-left: 200px; 
+  margin-top: 80px;
+  border-top-left-radius: 50px;
 }
