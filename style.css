@@ -1,14 +1,19 @@
 html {
   background: rgb(249,122,149);
   background: linear-gradient(30deg, rgba(249,122,149,1) 30%, rgba(251,230,113,1) 50%, rgba(247,15,153,1) 100%);
+  min-height: 80vh;
+  min-width: 80vw;
+  overflow: hidden;
 }
 
 body {
-  background: rgb(123,233,204);
-  background: linear-gradient(130deg, #f70f99 0%, #f97a95 80%);
-  min-height: 100vh;
-  min-width: 100vw;
+  background: #ffffff;
+  min-height: 88vh;
+  min-width: 80vw;
   margin-left: 200px; 
-  margin-top: 80px;
-  border-top-left-radius: 50px;
+  margin-top: 60px;
+  margin-right: 20px; 
+  margin-bottom: 20px;
+  border-radius: 50px;
+  overscroll-behavior: none;
 }
