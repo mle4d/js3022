@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 html {
   background: rgb(249,122,149);
   background: linear-gradient(30deg, rgba(249,122,149,1) 30%, rgba(251,230,113,1) 50%, rgba(247,15,153,1) 100%);
@@ -20,6 +20,7 @@ body {
 }
 h1 {
   font-size: 4em;
+  font-family: 'Lacquer';
   width: 40vw;
   text-align: center;
   position: absolute;
