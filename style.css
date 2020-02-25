@@ -2,20 +2,23 @@
 html {
   background: rgb(249,122,149);
   background: linear-gradient(30deg, rgba(249,122,149,1) 30%, rgba(251,230,113,1) 50%, rgba(247,15,153,1) 100%);
-  min-height: 80vh;
+  min-height: 100vh;
   min-width: 80vw;
   overflow: hidden;
 }
 
 body {
   background: #ffffff;
-  min-height: 88vh;
-  min-width: 80vw;
+  min-height: 100vh;
+  min-width: 83.5vw;
   margin-left: 200px; 
   margin-top: 65px;
   margin-right: 20px; 
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border-radius: 50px;
+  border: solid 4px #f70f99;
+  border-bottom: none;
+  box-shadow: 1px 1px 7px 1px #d60e86, -1px 1px 7px 1px #d60e86, 1px -1px 7px 1px #d60e86, -1px -1px 7px 1px #d60e86;
   overscroll-behavior: none;
 }
 h1 {
