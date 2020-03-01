@@ -64,11 +64,11 @@ a {
   transition: all 0.2s;
   position: absolute;
   top: 0;
-  background: #dcdcdc;
+  background: #f0e3ed;
   opacity: .8;
   left: 0;
   z-index: -1;
-  border-radius: 15px;
+  border-radius: 25px;
   display: block;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
