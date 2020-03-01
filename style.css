@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 html {
-  background: rgb(249,122,149);
-  background: linear-gradient(30deg, rgba(249,122,149,1) 30%, rgba(251,230,113,1) 50%, rgba(247,15,153,1) 100%);
-  min-height: 100vh;
-  min-width: 80vw;
+  background: #e4e4e4;
+  min-height: 90vh;
+  min-width: 100vw;
   overflow: hidden;
 }
 
 body {
-  background: #ffffff;
-  min-height: 100vh;
-  min-width: 90vw;
-  margin-left: 200px; 
-  margin-top: 70px;
+  background: #f0e3ed;
+  min-height: 90vh;
+  min-width: 80vw;
+  margin-left: 150px; 
+  margin-top: 40px;
+  margin-right: 40px; 
+  margin-bottom: 60px;
   border-radius: 50px;
-  border-left: solid 4px #f70f99;
-  border-top: solid 4px #f70f99;
-  box-shadow: 1px 1px 7px 1px #d60e86, -1px 1px 7px 1px #d60e86, 1px -1px 7px 1px #d60e86, -1px -1px 7px 1px #d60e86;
+  box-shadow: 8px 8px 10px #dcdcdc, -8px -8px 10px #dcdcdc, 8px -8px 10px #dcdcdc, -8px 8px 10px #dcdcdc;
   overscroll-behavior: none;
 }
 h1 {
@@ -27,7 +26,7 @@ h1 {
   position: absolute;
   top: 20%;
   left: 40%;
-  color: #f70f99;
+  color: #3c3554;
   transform: rotate(-20deg);
 }
 ul {
@@ -36,7 +35,7 @@ ul {
 .sidebar {
   display: inline;
   position: fixed;
-  left: 1%;
+  left: -1%;
   top: 20%;
   line-height: 80px;
 }
@@ -47,20 +46,20 @@ ul {
   width: 60%;
   position: fixed;
   left: 25%;
-  top: -1%;
+  top: 5%;
 }
 a {
   text-decoration: none;
   font-family: 'Shadows Into Light';
   font-size: 200%;
-  color: #ffffff;
+  color: #3c3554;
   border-radius: 20px;
 }
 .highlight {
   transition: all 0.2s;
   position: absolute;
   top: 0;
-  background: #101654;
+  background: #f0e3ed;
   opacity: .8;
   left: 0;
   z-index: -1;
